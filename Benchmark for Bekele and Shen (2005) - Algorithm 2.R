@@ -27,7 +27,7 @@ theta1<-theta2<-0.5
 # Specifying the total sample size and number of simulations
 n<-36
 # S<-2000                        # Quick computing
-S<-1000000                       # Warning! A long computational time due to the safety and futility conditions (1.5 hours)
+S<-1000000                       # Warning! A long computational time due to binary vectors generating (1.5 hours)
 
 # Request library for generaing bivariate normal vector
 library("mvtnorm")
